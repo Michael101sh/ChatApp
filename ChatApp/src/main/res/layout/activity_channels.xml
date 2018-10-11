@@ -1,0 +1,52 @@
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".ChannelsActivity">
+
+    <RelativeLayout
+        android:id="@+id/swipeFragment"
+        android:layout_width="fill_parent"
+        android:layout_marginRight="40dp"
+        android:layout_height="50dp"
+        android:background="@drawable/swipe"> </RelativeLayout>
+
+    <Button
+        android:id="@+id/menu_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" />
+
+    <FrameLayout
+        android:id="@+id/menuFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:paddingRight="40dp"
+        android:paddingEnd="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/channels_activity_title"
+        android:text="@string/title_activity_channels"
+        android:textSize="30sp"
+        android:textColor="@color/holo_red_light"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/swipeFragment"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:paddingTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/channels_activity_title"> </ListView>
+
+
+</RelativeLayout>

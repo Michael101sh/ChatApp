@@ -1,0 +1,83 @@
+﻿<resources>
+    <string name="app_name">ChatApp</string>
+
+    <string name="hello">"שלום!"</string>
+    <string name="welcome_to_chatapp">"ברוך הבא ל-ChatApp!"</string>
+
+    <string name="title_activity_splash">"מסך ספלאש"</string>
+    <string name="title_activity_main">"המסך הראשי"</string>
+    <string name="title_activity_chat">"מסך הצ'אט"</string>
+    <string name="title_activity_channels">"מסך הערוצים"</string>
+    <string name="title_activity_base">"מסך בסיס"</string>
+    <string name="title_activity_add_channel">"מסך הוספת ערוץ"</string>
+    <string name="title_activity_settings">"מסך הגדרות"</string>
+    <string name="title_activity_review_chat">"צ'אט ערוץ ביקורת"</string>
+
+    <string name="review">Review</string>
+
+    <!-- menu -->
+    <string name="menu_txt"> "תפריט" </string>
+    <string name="add_channel">"הוסף ערוץ"</string>
+    <string name="action_settings">"הגדרות"</string>
+
+    <string name="channel_name">"שם הערוץ"</string>
+    <string name="channel_id">"מזהה הערוץ"</string>
+    <string name="icon_text"> "אייקון" </string>
+
+    <string name="leave_channel"> "עזוב ערוץ" </string>
+
+    <string name="servers_list">"רשימת שרתים"</string>
+    <string name="channels_list"> "רשימת ערוצים" </string>
+    <string name="send_button">"שלח"</string>
+    <string name="ip"> "192.168.43.167" </string>
+    <string name="description"> "תמונה" </string>
+    <string name="our_server_base_url"> "http://chatappserver-final.appspot.com" </string>
+    <string name="our_first_backup_server_url"> "http://chatappserver-bu1.appspot.com"</string>
+    <string name="our_second_backup_server_url">"http://chatappserver-bu2.appspot.com""</string>
+    <string name="our_third_backup_server_url"> "http://chatappserver-bu3.appspot.com""</string>
+    <string name="please_wait_for_announcement" > "נא המתן להכרזה על התחברות מוצלחת לאחר שאתה לוחץ על כפתור התחברות" </string>
+    <string name="login"> "התחבר" </string>
+    <string name="sign_out"> "התנתק" </string>
+    <string name="continue_to_app"> "המשך לאפליקציה" </string>
+    <string name="login_done_successfully"> "ההתחברות בוצעה בהצלחה" </string>
+    <string name="login_failed"> "ההתחברות נכשלה" </string>
+    <string name="login_asked"> "נא היכנס קודם" </string>
+    <string name="logout_done_successfully"> "ההתנתקות בוצעה בהצלחה"</string>
+    <string name="logout_failed"> "ההתנתקות נכשלה" </string>
+    <string name="already_login"> "אתה כבר התחברת" </string>
+    <string name="not_logged_in"> "אתה לא מחובר" </string>
+    <string name="delivering_to_setting_screen"> מכיוון שההתחברות נכשלה, אתה מועבר למסך הגדרות על מנת לבחור שרת להתחברות</string>
+
+    <string name="first_server_for_register"> "appatpetet2.appspot.com" </string>
+
+    <string name="channel_added"> "הערוץ נוסף" </string>
+
+    <string name="already_login_to_this_server"> "אתה כבר מחובר לשרת הזה"  </string>
+    <string name="please_enter_id"> "נא הזן מזהה לערוץ" </string>
+    <string name="please_enter_name"> "נא הזן שם לערוץ" </string>
+    <string name="please_choose_icon"> "נא בחר אייקון לערוץ" </string>
+
+    <string name="need_to_replace_server"> "אתה צריך להחליף שרת, בבקשה לחץ על כפתור ההתחברות" </string>
+
+    <string name="my_channels"> "הערוצים שלי" </string>
+
+    <string name="review_channel_icon_base64"> iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAAAAACpleexAAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAAAEgAAABIAEbJaz4AAAIQSURBVDjLfZVbaxNBGIb3r4ps5jxUrNFKr0oJiBalXQ9YFJradtkqtWrSmtCQtGlSQUGoItoEKkWlgni60RvHSbqb/Wa6s+9VsvvMd5qZdz1l6rj76F4QzEfbR9YLD/45vE0QYVyLEYxm9h3g+wuISSCOxF4WWCpwaUmg4m8b7GEmM8T9XRPs+NIhP4TgrpOTEi2nYC+Hk7LQGIFI5sr/GoPTdrtUmM3LE/CtHZC2JkySVIfgeWGnUt+ttXgA9uyAYkypgvmINDQY2BWinVMgL2oQwwd6EbqmVP8MxgRulf/X+wwy89kbTHZ0i7+ODvcbiyAVeeW1CRitUmdX0gMzl5Is8laZCZZTsMRBLu8ud4Jj6dzElBe4QTi3yzlgHxugO/UalTB1ZDWzNAIvgRC6GWs8fulbzP2Au6PH8wmUTKtPKEfkSlSr15qTcGvJS3ML6bAsTomWcQT8Px6cv1PDQ3GQ5maUUyaYFhWcsTQC2TIOLnv2/Hrz6cUoXFmvFxfDxwsjcnhw1ZskJOnu3WqRxuZGLVjoVjaXHiaTI5WTyzUVr2SV+w+6k+2J9bXquRflmXArnrgQ8S38l4RkXBdHB0UKOvidtHyc3OsP+QZQTy2llWcpZWhS206ysGza3gHKnDv3d04Z6XSGkeLxnxnW/G7cjMox7zjMvn8TA7O/+tr5VdD60l6dD4I7YfOj9eI/bpnJ7AfdxXQAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTUtMDgtMTNUMTk6MjQ6MDYtMDU6MDBfdR4LAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE1LTA4LTEzVDE5OjI0OjA2LTA1OjAwLiimtwAAAABJRU5ErkJggg== </string>
+
+    <string name="icon1_base64"> iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAAAAACpleexAAAABGdBTUEAAYagMeiWXwAAAAJiS0dEAP+Hj8y/AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACM0lEQVQ4y2P4TyRgGFoKv77/gAbef8Gi8NqUSVOmoYEpkyZfQFe4K7MgOyMdDWRk52WtR1X40TUkPCIiHA0ARYJdn6EonGLk7OnlbmlijARMzF29PJ1NW1EU5mmZWZnbH3n+BAk8ux5sYmWmHYeiMENJV0f2JUaYKGnrKkegKEyRVFXUgYcTPFTc5VSlglEUxgvJSqqDWbNMmRgZGHT7wBx7MVkRPxSFMVxiQopA+iYHIyOzkr40AwPzSSDXkl+MxwtFYSSrAI/s///XGdhYu74B+a+CGRhO/P9vyinA5o6iMJyRl0Pq/38mVu5XUOflMDD+/2/ExsPsiqIwjJGbTfL/PgaGPYjIZdj635CFm8kFVSEDF5vE/wkMSGmEgaHzvwEzFyO6Qk4W8f+rkRQeZmBY8d+AiZPBGUVhCAMHsxjIFGjw/v/JwMTw978+IwcWheLAQGRgsHkE5P5pAqqb+x+3wv8dDEAgxgQiJ/7Hp/C/AQME+IMMxqPwOkP0p6ubNl+DuhS7QgkgveQGSuoxxKaQhQcjlf2XY0ZXGMzAwc6wHV3daQZ2DgYHFIXpDBxAlUFlRUigLBSojoMhBEXhcZAYOwMaAIttQlH43wokignYGTT+Iyn89/vLB22wGYyMTFDAyAgWUHz++ddfuMK/319dOdLkbKAmLykqLCggwC8gKCwqKadm4NRw/MarH3+Rrf7399/f7x9fPX1w5+b169dv3Lr34NmbT7+QQmBwlI/0VggAqTeWJ10m1CcAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTUtMDgtMTRUMDI6NDE6MTIrMDI6MDClvUaFAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE1LTA4LTE0VDAyOjQxOjE0KzAyOjAwtzDLAwAAAABJRU5ErkJggg==</string>
+
+    <string name="icon2_base64">
+        iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAAAAACpleexAAAABGdBTUEAAYagMeiWXwAAAAJiS0dEAP+Hj8y/AAAACXBIWXMAAA7DAAAOwwHHb6hkAAACc0lEQVQ4y62UW2sTQRTH86H8AIIPUgzOFEvxTT+An6Aa3Wzu9KmI0CfbkE0ys018UBBERJLZXPAC3pCY28xskqamlycvFNQ6M7tJNtf64B+WPcv+5n/OYWaOj02LUjZPPvaPmgVbvdZ5IGWDXNbAQgZKdtsLQdrcRngklPpEKZ8Dto8yeEqZFuN0CqR2Ec8IYcNuTIH7JYxmSZx72pwE7Sd4vtBDewLsI7xILS/4BS8W6o/BbmUJaKbG4L7hLkbyQQi5X06QHYMv1EoDVaumkZEyjHQ6Ld5Zx3MEJtWuWcSyiNKzOnutgpJmmhjnGXfAlsqctsjZr7MTQsrfD69f1vrVkgR18Sc1dOxjF+zY3c+kzC9AAOCN5OAlKQX1oEhfqztgcwhKFQ8gvLKysgbAj+cCFGTOzKvUlBMXVKqcQnBTi92H4OKAlHWhMNqpOeBjr2NhaxXEEonNDT88lo7CMozaKjUvTqSOA7iVSMRDV8FXBUq1nBrrXrDUg/BWPBGHcP3bEIwdKZAyL0h+rommRduwYLlggDIXzKJxM1bh8No6AH7/pd/EaUa/py6EjzK6oxwdQ1IpnIYAWP3Tl3Uox9vDnWGvvCCxCm+PTzoF4oK6Hh3tdUOmzgbcFjVNCw5DXYBRm1EXpO+lZV6UE5yju54TzpEpTM1QRJ/Vna73znRQTh68zci0p74xnAEOyG15+x/taTOGu40JkB68MdVhDk8ahh58ZHxqpNgpdeODo45EEGh8mJ09tLMrh8VedFSernkHmmeacXvbkNlD0jMWDbxbNPY447yWREYiEovrRZuzRaAsu93s9mwuFjC6BFyq/w/+BRmHmmP53gm2AAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE1LTA4LTE0VDAyOjQ0OjM2KzAyOjAw9f6urwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNS0wOC0xNFQwMjo0NDozNyswMjowMCLUHacAAAAASUVORK5CYII=
+    </string>
+
+    <string name="icon3_base64">
+    iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAAAAACNVrZyAAAABGdBTUEAAYagMeiWXwAAAAJiS0dEAP+Hj8y/AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAC8klEQVQ4y42UXU8TQRSG+WH+A43hQpDuhxSCMdQUpC3tfsxsgUtIFAmixMQLE02MXqCJbClsC9KYEO5MxECF2W0Lpdt2p5TKhVfOzmxraUV9mzbb9Ok575k55/SY/6Wey18t8kYI/Qs7LO8ta0/3HJxFV2HH2UwUNKW8yx6YuW4MmVUgyy0MRCIr1lE3VpyFKmiXCuV8J5Y3HwAIQYfGjMtYKRcHU0oXBoF12Ibl6pK2tZCYIWnJS6WfLHF859hqYqigapoElRVV1ZRJKSbLUegZhTCPWthzEJ8F6kwJQC2TXtON1O4Cw4iNYCuaCYGkpiPVejCzfVJz6hjbKSOmeP7Om1iQ2pi/eJbYtR2mSlGfZxwcpxiy9mO0RFVOHCyXMVOtcJSKKsyfe9FuNPYvOZGuP3lMobPG7E2czagx+stD0goEizATE1teoFPb6e8lD+kbYRpORpaLhVm0zXWGOZVR3+0XNYy/GkMhltX1ZsZZtM1TSpWTt/r6fBXy9NPgh2MSANEcTcraAm7QEqulcL+PY+Wu+zkhIAPNpEm989k4o+4D45FbX2o0sD7A80JIjlPMYgZUnbjHP8ZCoftzDVaLzglEsYhFkzIMfvqMyQ2ERgI1xyv5rUsJ4igtATFv2qMkiTYRmqtilhInX4uE4nkfvSxUpJcAJzfsxnSgxpjSooP1AI0mhMkAkMs6kCBtmWjaxnlybq7qi421JZF35T9uv3oApvXVC9yUs2KwWOK9ZoewrKRht7eLFfeQy7a9nhZEhp202nKRjJELxkc+GonseS71IR1ksXj+7u9ZIG2rsnjXe1NGMpH084KXUvzWanKzUPVGBEiib8g/whPzDOvbOWwbwBxujrIyzHEczyTwQta6NM5Z0+OgRAx5GYWhV8310FoONpjyCiYpqfnBa6U/rZqzWNztfjh9h+OFwYH+VRN1Y6ZZ3zfcDtWgMiAI3Ps8vmoNnhTy5eKbpZdHJfT9L9vSskxk0Z3auVY7lupV+gWuo/FuujPJ6QAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxNS0wOC0xNFQwMjo0OToyNCswMjowMFs1NKgAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTUtMDgtMTRUMDI6NDk6MjUrMDI6MDCMH4egAAAAAElFTkSuQmCC
+    </string>
+
+    <string name="icon4_base64">
+        iVBORw0KGgoAAAANSUhEUgAAACcAAAAoCAAAAABYnrw8AAAABGdBTUEAAYagMeiWXwAAAAJiS0dEAP+Hj8y/AAAACXBIWXMAAA7DAAAOwwHHb6hkAAACdUlEQVQ4y7WUTWsTQRjH+108evCq4KWCqNmZTUN2k83OTF66JVYE8Q0Uj17q2YuFnEQ/QaFCqda2iKRoKQUtNmYzmU2sMWoSPQjenJd9TZvSi//Dbpj55f88z+wzz1T7ZJr6nxwTD9pqUfVrAsc893m+UDUtG1kWYWwStz13wyI2woTYNiHo2vvDHP/v58U8HpPtuYf83DI+JJJlewmOft13iNxCGXSVYCtE77l+dZJjjWzB3yi+eLO2vnYzDL0T82PeXDbAXr1+NH2pXr9zPVjoRlzrXRintqEDAPTNlbztr1gR9yGolKDVLQ1ycGaraCG1hhYUxyh7HLgh8nIVCKXf1qDlp0xcJv0om41OgnMQQqBzLp1TS7jpST/G0mTcT3AAZBRXORAc9ZYCM4LDuPUat02Z8iDLHcUFQauVcmV9xTBN07A3Fw0zw+sROea7qt7w9AejYVw9bmzwTbStuNwkjoeGGQubtxWHJvvx0g1MHMVVjuZGfVnSFWg/oKKOdingfg4HXN7pyl/xHioOavklKv2MpN+Fi2f/xPy4Y1PFXUhy3fNn/LhQSRsxwbEO9r/HUHL9UzSeH4Cgp/yapOhzUt/PPUtw6Q2Xqb66H8SV6v3qD2J16NNh//VQ4Dfikg/x/iK5lBPdjx3VLb8DRInJKlArum/MKYoUS5kg81Cw8InRkOu2HCS6HsExAe1hJ8a1XdeRLVkAY5r9QWP3l0em8uuhQjwo0G95Y3ODMW/eQgQjM+Jmqm0vnFr+HKK0Tb/NXy4RbAOgiX7SUjl69FzbO/h4l5ed0gSo73YSAzAxT/lo6HjLT542Bvu7jWPm7jE6KfcPcZjxL2j16QQAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTUtMDgtMTRUMDI6NTM6NTUrMDI6MDAhK3kMAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE1LTA4LTE0VDAyOjUzOjU2KzAyOjAwYZ7bLQAAAABJRU5ErkJggg==
+    </string>
+
+    <string name="icon5_base64">
+        iVBORw0KGgoAAAANSUhEUgAAACcAAAAlCAAAAADkAK/iAAAABGdBTUEAAYagMeiWXwAAAAJiS0dEAP+Hj8y/AAAACXBIWXMAAA7DAAAOwwHHb6hkAAACbklEQVQ4y52U7U8TMRzH+RdHDMzbzQVJfEFiGHJDIdvE6IZk26sZYkw0wi3E1w7jXHC6tb09mDCYeLfugV5vIP+Gvfa4uzFGiN83bdJPv7+H/NoZ826a+R+OmFaz0qg2G0CDzXOTkGlcBUHgCILG6Y1+o8tGHYzr8PKC0jGOEgtD5gXHBBCi1/ysKpgUBLBsUkp83HHN7+PbN0U1DtevQs+mhnyeWptQlyMNL9bP6iMpUa+gxQjgd0WKnCOw5V5vzAblQPBB4VdwQYSA2tDjBAO0UiQ09wnj1qy8EFlAgDv+sFglnDsWDQEIPJwPkj7GXaxJwTmIELCLQkRwxOnJ4fySpOvYwFjXdUOO3Nut8OaAc85RyqnW/XBkNMCufvfCYbnIjyyRHxZ2TxdPdRbRExkEPvDMjzhHaqIueKSL867+R+C93YKqsQwrgvvmtL6t440U0yvdSKdTKY1zBVZIVcQte35SSJblFQPbywnn1H2AasKv7PgxLhCSJGkJGxJbHU7dLzlc1fO7iVPVsohrTHCdzkmn03W5r5yjZCIuK9cwsMudmU6fIfdru5zdHHzF7amGMwddBMb9HAmuoLIJFPOHauP5+bnCXu9qXqwiVx2WHy9Ho9Hkl+LBQfGgVK/t5PP5nVTfnWf8PpvLZXPJJ4rQmi1Fidl6SX3vw3qRyTIllQmtfDa992ESxLhMJpNYi41L+Wj63hEzfGv7ZV+vX7NbPqP+uExDhmWy6c2Yj4q9GUz+QxcJO8dc/KoYZVUhI5NM/leD4eZWLrcdX+XUxvpwyv9HCfn7PbO9FY8+e668s275/9wb9paaU/xu0z8kBTK9sgtPoAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxNS0wOC0xNFQwMjo1NTo1MCswMjowMH4NJuwAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTUtMDgtMTRUMDI6NTU6NTErMDI6MDCpJ5XkAAAAAElFTkSuQmCC
+    </string>
+</resources>
